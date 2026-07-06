@@ -1,0 +1,5 @@
+/gradlew text eol=lf
+*.bat text eol=crlf
+*.jar binary
+[ZoneTransfer]
+ReferrerUrl=C:\Users\pkonan\Downloads\commande (2).zip

@@ -1,0 +1,245 @@
+:root {
+    --orange: #FF8C00;
+    --white: #FFFFFF;
+    --green: #228B22;
+    --glass-bg: rgba(255, 255, 255, 0.2);
+    --glass-border: rgba(255, 255, 255, 0.3);
+    --text-color: #333;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--white);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--orange);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    color: var(--text-color);
+}
+
+h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+select {
+    background: rgba(255, 255, 255, 0.9);
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: var(--orange);
+    box-shadow: 0 0 5px var(--orange);
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-container input[type="password"],
+.password-container input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 40px;
+}
+
+#togglePassword {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    color: #666;
+}
+
+#togglePassword:hover {
+    color: var(--orange);
+}
+
+input::placeholder {
+    color: #999;
+}
+
+button, input[type="submit"] {
+    background-color: var(--green);
+    color: var(--white);
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #1e7a1e;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.recap {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.recap p {
+    margin: 5px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.info-client {
+    position: absolute;
+    right: 0;
+    top: -48px;
+    font-size: 0.9em;
+}
+
+.info-client p {
+    margin: 0;
+    color: var(--text-color);
+}
+
+.info-client i {
+    color: var(--orange);
+    margin-right: 5px;
+}
+
+.btn-user {
+    background-color: lightgrey;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    margin-top: 0;
+}
+
+.btn-user:hover {
+    background-color: #d0d0d0;
+    transform: scale(1.05);
+}
+
+.btn-user i {
+    margin-right: 8px;
+}
+
+.info-client strong {
+    color: var(--text-color);
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.panier-container {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background: #f9f9f9;
+}
+
+.panier-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.panier-table th, .panier-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.btn-remove {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.total-container {
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--green);
+}
+
+.produit-selection {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+.produit-selection .flex-grow {
+    flex-grow: 1;
+}
+
+.produit-selection select, .produit-selection input {
+    margin-bottom: 0;
+}
+
+.btn-add {
+    background-color: var(--orange);
+    margin-top: 0;
+}

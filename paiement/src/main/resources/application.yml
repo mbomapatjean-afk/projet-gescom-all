@@ -1,0 +1,30 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /paiement
+
+app:
+  services:
+    banque:
+      url: http://localhost:9084/banque/api/cartes/verifier-solde
+
+spring:
+  application:
+    name: paiement
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/gescom_db
+    username: root
+    password: ''
+
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: none

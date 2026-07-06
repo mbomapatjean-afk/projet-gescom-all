@@ -1,0 +1,40 @@
+server:
+  port: 8086
+  servlet:
+    context-path: /document
+
+spring:
+  application:
+    name: document
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/gescom_db
+    username: root
+    password: ''
+
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: none
+
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    username: mbomapatjean@gmail.com
+    password: mhmfdhprywcizlls
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            enable: true
+          socketFactory:
+            port: 465
+            class: javax.net.ssl.SSLSocketFactory

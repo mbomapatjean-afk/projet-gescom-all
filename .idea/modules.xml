@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/PROJET_GESCOM.iml" filepath="$PROJECT_DIR$/.idea/PROJET_GESCOM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/accueil.main.iml" filepath="$PROJECT_DIR$/.idea/modules/accueil.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/banque.main.iml" filepath="$PROJECT_DIR$/.idea/modules/banque.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/banque.test.iml" filepath="$PROJECT_DIR$/.idea/modules/banque.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commande.main.iml" filepath="$PROJECT_DIR$/.idea/modules/commande.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/document.main.iml" filepath="$PROJECT_DIR$/.idea/modules/document.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gescom.auth.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gescom.auth.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notification.main.iml" filepath="$PROJECT_DIR$/.idea/modules/notification.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/produit.main.iml" filepath="$PROJECT_DIR$/.idea/modules/produit.main.iml" />
+    </modules>
+  </component>
+</project>

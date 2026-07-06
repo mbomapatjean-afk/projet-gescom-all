@@ -1,0 +1,11 @@
+build/
+.gradle/
+out/
+.idea/
+.project
+.settings/
+.classpath
+bin/
+*.log
+Dockerfile
+.dockerignore

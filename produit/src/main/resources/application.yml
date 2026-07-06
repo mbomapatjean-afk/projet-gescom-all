@@ -1,0 +1,25 @@
+server:
+  port: 9083
+  servlet:
+    context-path: /produit
+
+spring:
+  application:
+    name: produit
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/gescom_db
+    username: root
+    password: ''
+
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: none
