@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/document.main.iml" filepath="$PROJECT_DIR$/.idea/modules/document.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gescom.auth.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gescom.auth.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/notification.main.iml" filepath="$PROJECT_DIR$/.idea/modules/notification.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paiement.main.iml" filepath="$PROJECT_DIR$/.idea/modules/paiement.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/produit.main.iml" filepath="$PROJECT_DIR$/.idea/modules/produit.main.iml" />
     </modules>
   </component>

@@ -14,6 +14,7 @@ Le projet est divisé en plusieurs microservices autonomes :
 - **banque** : Un service simulateur pour la vérification des soldes et les transactions bancaires.
 - **notification** : Service centralisé pour l'envoi de notifications (notamment par e-mail via SMTP).
 - **document** : Gestion des documents liés aux transactions (factures, bons de commande).
+- **client** : Gère les informations et le suivi des clients.
 
 ## Technologies utilisées
 
@@ -60,6 +61,7 @@ Voici les ports configurés par défaut pour les différents services :
 - **produit** : 9083
 - **banque** : 9084
 - **notification** : 9088
+- **client** : 9087
 
 ## Points de Terminaison (API)
 Certains services exposent une documentation Swagger. Vous pouvez y accéder via :

@@ -1,0 +1,30 @@
+server:
+  port: 9087
+  servlet:
+    context-path: /client
+
+spring:
+  application:
+    name: client
+  datasource:
+    url: jdbc:mysql://localhost:3306/gescom_db?createDatabaseIfNotExist=true
+    username: root
+    password: ""
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      mode: always
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: none
+  web:
+    error:
+      include-message: always

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/accueil" />
+        <option name="gradleHome" value="C:\source\gradle-8.5" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/accueil" />
@@ -12,6 +14,7 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/banque" />
+        <option name="gradleHome" value="C:\source\gradle-8.5" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/banque" />
@@ -20,6 +23,7 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/commande" />
+        <option name="gradleHome" value="C:\source\gradle-8.5" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/commande" />
@@ -28,6 +32,7 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/document" />
+        <option name="gradleHome" value="C:\source\gradle-8.5" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/document" />
@@ -36,6 +41,7 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/gescom.auth" />
+        <option name="gradleHome" value="C:\source\gradle-8.5" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/gescom.auth" />
@@ -44,6 +50,7 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/notification" />
+        <option name="gradleHome" value="C:\source\gradle-8.5" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/notification" />
@@ -52,6 +59,7 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/paiement" />
+        <option name="gradleHome" value="C:\source\gradle-8.5" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/paiement" />
@@ -60,6 +68,7 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/produit" />
+        <option name="gradleHome" value="C:\source\gradle-8.5" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/produit" />
