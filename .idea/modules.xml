@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/accueil.main.iml" filepath="$PROJECT_DIR$/.idea/modules/accueil.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/banque.main.iml" filepath="$PROJECT_DIR$/.idea/modules/banque.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/banque.test.iml" filepath="$PROJECT_DIR$/.idea/modules/banque.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client.main.iml" filepath="$PROJECT_DIR$/.idea/modules/client.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client.test.iml" filepath="$PROJECT_DIR$/.idea/modules/client.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/commande.main.iml" filepath="$PROJECT_DIR$/.idea/modules/commande.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/document.main.iml" filepath="$PROJECT_DIR$/.idea/modules/document.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gescom.auth.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gescom.auth.main.iml" />
